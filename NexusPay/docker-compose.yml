@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  postgres-db:
+    image: postgres:15-alpine
+    container_name: nexuspay-postgres
+    environment:
+      - POSTGRES_DB=nexuspay_db
+      - POSTGRES_USER=user_nexus
+      - POSTGRES_PASSWORD=password_nexus
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
