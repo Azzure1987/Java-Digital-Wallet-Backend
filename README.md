@@ -2,6 +2,9 @@
 
 NexusPay is a high-performance, resilient digital wallet solution developed as an **Applied Java solution**. The project focuses on strict financial data integrity, transactional atomicity, and a decoupled architecture designed for scalability and maintainability.
 
+<img width="1219" height="888" alt="preview" src="https://github.com/user-attachments/assets/90d84ab6-d76e-42e1-9afb-9bfd35024a33" />
+
+
 ## 🏗️ Architecture: Hexagonal (Ports & Adapters)
 
 This project implements **Hexagonal Architecture** to ensure that the core business logic remains independent of external frameworks, databases, and UI components.
